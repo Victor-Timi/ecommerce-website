@@ -42,8 +42,8 @@ table.basic a{
     @apply px-4 py-1 rounded-md;
 }
 .btn-red{
-    @apply bg-red-200 text-red-600 px-4 py-1 rounded-sm shadow-sm;
+    @apply bg-red-200 text-red-600 px-4 py-1 rounded-sm shadow-sm hover:opacity-80;
 }
 .btn-default{
-    @apply bg-white text-gray-800 px-4 py-1 rounded-sm border border-gray-200 shadow-sm;
+    @apply bg-white text-gray-800 px-4 py-1 rounded-sm border border-gray-200 shadow-sm hover:opacity-50;
 }
